@@ -7,7 +7,9 @@ public class UserRepository {
 
     private static final Map<String, User> users = new HashMap<>();
 
-    static {}
+    static {
+        initData();
+    }
 
     private static void initData() {
         User john = new User();
