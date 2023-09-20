@@ -56,7 +56,7 @@
                 </executions>
                 <configuration>
                     <wsdlUrls>
-                        <wsdlUrl>http://localhost:8080/ws/country?wsdl</wsdlUrl>
+                        <wsdlUrl>http://localhost:8080/ws/user?wsdl</wsdlUrl>
                     </wsdlUrls>
                     <keep>true</keep>
                     <packageName>org.example.client.generated</packageName>
